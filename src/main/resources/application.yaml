@@ -11,4 +11,5 @@ spring:
   		hibernate
   			ddl-auto: update
   			jdbc
-  				lob: non_contextual_creation=true
+  				lob
+  					non_contextual_creation: true
