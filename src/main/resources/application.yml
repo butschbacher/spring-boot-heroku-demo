@@ -6,6 +6,6 @@ spring:
       ddl-auto: update
     database-platform: org.hibernate.dialect.PostgreSQLDialect
   datasource:
-    url: "jdbc:postgresql://ec2-107-20-214-225.compute-.amazonaws.com:5432/databasename?sslmode=require"
+    url: "jdbc:postgresql://ec2-107-20-214-225.compute-.amazonaws.com:5432/de4kee5tb2udbm?sslmode=require"
     username: ${JDBC_DATABASE_USERNAME}
     password: ${JDBC_DATABASE_PASSWORD}
