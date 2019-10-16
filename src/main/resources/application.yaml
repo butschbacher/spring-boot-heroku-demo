@@ -7,9 +7,9 @@ spring:
   	show-sql: false
   	generate-ddl: true
   	database-platform: ${SPRING_JPA_DATABASE-PLATFORM}
-  	properties
-  		hibernate
+  	properties:
+  		hibernate:
   			ddl-auto: update
-  			jdbc
-  				lob
+  			jdbc:
+  				lob:
   					non_contextual_creation: true
