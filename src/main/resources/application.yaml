@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    url: ${JDBC_DATABASE_URL}
+    username: ${JDBC_DATABASE_USERNAME}
+    password: ${JDBC_DATABASE_PASSWORD}
+  jpa:
+  	show-sql: false
+  	generate-ddl: true
+  	database-platform: ${SPRING_JPA_DATABASE-PLATFORM}
+  	properties
+  		hibernate
+  			ddl-auto:update
+  			jdbc
+  				lob: non_contextual_creation=true
