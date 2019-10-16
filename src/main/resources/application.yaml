@@ -9,6 +9,6 @@ spring:
   	database-platform: ${SPRING_JPA_DATABASE-PLATFORM}
   	properties
   		hibernate
-  			ddl-auto:update
+  			ddl-auto: update
   			jdbc
   				lob: non_contextual_creation=true
