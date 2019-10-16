@@ -1,11 +1,11 @@
 spring:  
   jpa:
-  	show-sql: false
-  	generate-ddl: true  
+    show-sql: false
+    generate-ddl: true  
     hibernate:  
       ddl-auto: update  
     database-platform: org.hibernate.dialect.PostgreSQLDialect  
-  datasource:  
+  datasource:
     url: ${JDBC_DATABASE_URL}
     username: ${JDBC_DATABASE_USERNAME}
     password: ${JDBC_DATABASE_PASSWORD}
